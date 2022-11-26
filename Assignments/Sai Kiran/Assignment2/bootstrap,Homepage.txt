@@ -1,0 +1,92 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.17134}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9 <!DOCTYPE html>\par
+<html>\par
+\par
+<head>\par
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />\par
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>\par
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>\par
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>\par
+</head>\par
+\par
+<body>\par
+    <div class="container">\par
+        <div class="row ">\par
+            <div class="col-12">\par
+                <nav class="navbar navbar-expand-lg bg-dark">\par
+                    <div class="container-fluid">\par
+                        <a class="navbar-brand" href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gem" viewBox="0 0 16 16">\par
+                                <path d="M3.1.7a.5.5 0 0 1 .4-.2h9a.5.5 0 0 1 .4.2l2.976 3.974c.149.185.156.45.01.644L8.4 15.3a.5.5 0 0 1-.8 0L.1 5.3a.5.5 0 0 1 0-.6l3-4zm11.386 3.785-1.806-2.41-.776 2.413 2.582-.003zm-3.633.004.961-2.989H4.186l.963 2.995 5.704-.006zM5.47 5.495 8 13.366l2.532-7.876-5.062.005zm-1.371-.999-.78-2.422-1.818 2.425 2.598-.003zM1.499 5.5l5.113 6.817-2.192-6.82L1.5 5.5zm7.889 6.817 5.123-6.83-2.928.002-2.195 6.828z" />\par
+                            </svg>\par
+\par
+                        </a>\par
+                        <button class="navbar-toggler navbar" type="button " data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">\par
+                            <span class="navbar-toggler-icon"></span>\par
+                        </button>\par
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">\par
+                            <ul class="navbar-nav">\par
+                                <li class="nav-item">\par
+                                    <a class="nav-link active" aria-current="page" href="#" onclick="display('sectionaboutpage')">Home</a>\par
+                                </li>\par
+\par
+                                <ul class="dropdown-menu">\par
+                                    <li><a class="dropdown-item" href="#">Action</a></li>\par
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>\par
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>\par
+                                </ul>\par
+\par
+                            </ul>\par
+                        </div>\par
+                    </div>\par
+                </nav>\par
+\par
+\par
+\par
+          \par
+\par
+                <div class="bg-container">\par
+                      <a href="#sectionaboutpage" target="display" class="home" >Home</a>\par
+                    <div class="d-flex flex-row justify-content-center ">\par
+                        <form>\par
+                            <div class="form-group mt-5 ">\par
+                                 <label for="formGroupExampleInput ">username</label>\par
+                                <span class="input-group-text" id="basic-addon1">\par
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">\par
+                                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />\par
+                                    </svg>\par
+                                </span>\par
+\par
+                            </div>\par
+                            <div class="form-group">\par
+                                <label for="formGroupExampleInput2">password</label>\par
+                                <span class="input-group-text" id="basic-addon1">\par
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">\par
+                                        <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />\par
+                                    </svg>\par
+                                </span>\par
+                            </div>\par
+                            <button id="button">sign in</button>\par
+                            <button id="button">sign up</button>\par
+\par
+                        </form>\par
+                    </div>\par
+\par
+\par
+\par
+\par
+                    \par
+                </div>\par
+            </div>\par
+        </div>\par
+    </div>\par
+\par
+    <div id="sectionaboutpage">\par
+        <h1>About page:</h1>\par
+        In this page is used to describe the features of the websites.Then this going to be a big part of our new perspective things.\par
+\par
+    </div>\par
+</body>\par
+\par
+</html>\par
+}
